@@ -31,11 +31,11 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(13, LOW);  // turn the LED on (HIGH is the voltage level)
-  //delayMicroseconds(44*(0.175));                     // wait for a second
+  digitalWrite(13, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delayMicroseconds(45*(0.175));                     // wait for a second
   //delay(1000);
   //Serial.println("Hello");
-  //digitalWrite(13, LOW); 
-  //delayMicroseconds(44*(1-0.175));
+  digitalWrite(13, LOW); 
+  delayMicroseconds(45*(1-0.175));
   //delay(1000);                     // wait for a second
 }
